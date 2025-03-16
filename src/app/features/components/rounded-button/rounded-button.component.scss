@@ -1,0 +1,8 @@
+@import "../../../../styles";
+
+a {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  font-size: 16px;
+  text-transform: uppercase;
+}

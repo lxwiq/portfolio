@@ -1,9 +1,5 @@
 import {Component, Input} from '@angular/core';
 
-interface RoundedButtonProps {
-  label: string;
-}
-
 @Component({
   selector: 'app-rounded-button',
   standalone: true,

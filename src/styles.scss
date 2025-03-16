@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+/* Variables */
+// Colors
+$background-color: #090909;
+$font-color: #F5F5F5;
+$border-color: #F5F5F5;
+
+// Radius
+$border-radius: 60px;
+
+/* Global */
+body {
+  background-color: $background-color;
+  color: $font-color;
+}
+
+a {
+  color: $font-color;
+  text-decoration: none;
+}

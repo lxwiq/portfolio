@@ -1,9 +1,15 @@
 @import "variables";
 @import "reset";
+@import "typo";
 /* Global */
 body {
   background-color: $background-color;
   color: $font-color;
+  font-family: $text-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font;
 }
 
 a {

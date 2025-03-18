@@ -1,5 +1,5 @@
-import {Component} from '@angular/core';
-import {FooterComponent} from '../../features/components/footer/footer.component';
+import { Component } from '@angular/core';
+import { FooterComponent } from '../../features/components/footer/footer.component';
 
 @Component({
   selector: 'app-about-page',

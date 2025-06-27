@@ -1,0 +1,99 @@
+// =============================================================================
+// FONTS DECLARATIONS
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// ANONYMOUS PRO FONT FAMILY
+// -----------------------------------------------------------------------------
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("/assets/fonts/AnonymousPro/AnonymousPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("/assets/fonts/AnonymousPro/AnonymousPro-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("/assets/fonts/AnonymousPro/AnonymousPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("/assets/fonts/AnonymousPro/AnonymousPro-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+// -----------------------------------------------------------------------------
+// HUMANE FONT FAMILY
+// -----------------------------------------------------------------------------
+
+@font-face {
+  font-family: "Humane";
+  src: url("/assets/fonts/Humane/Humane-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Humane";
+  src: url("/assets/fonts/Humane/Humane-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Humane";
+  src: url("/assets/fonts/Humane/Humane-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Humane";
+  src: url("/assets/fonts/Humane/Humane-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Humane";
+  src: url("/assets/fonts/Humane/Humane-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Humane";
+  src: url("/assets/fonts/Humane/Humane-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Humane";
+  src: url("/assets/fonts/Humane/Humane-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

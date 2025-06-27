@@ -1,0 +1,119 @@
+// =============================================================================
+// TYPOGRAPHY STYLES
+// =============================================================================
+
+// Base typography
+html {
+  font-size: $font-size-base;
+}
+
+body {
+  font-family: $font-family-primary;
+  font-size: $font-size-base;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-base;
+  color: $text-color-primary;
+}
+
+// =============================================================================
+// TEXT STYLES - VOS SPÉCIFICATIONS EXACTES
+// =============================================================================
+
+/* Text 20 upper bold */
+.text-20-upper-bold {
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  text-transform: uppercase;
+}
+
+/* Text 16 upper regular */
+.text-16-upper-regular {
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  text-transform: uppercase;
+}
+
+/* Text 16 regular */
+.text-16-regular {
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+}
+
+// =============================================================================
+// TITLE STYLES - VOS SPÉCIFICATIONS EXACTES
+// =============================================================================
+
+/* Title 238 */
+.title-238 {
+  font-family: Humane;
+  font-size: 238px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 238px; /* 100% */
+  text-transform: uppercase;
+}
+
+/* Title 182 */
+.title-182 {
+  font-family: Humane;
+  font-size: 182px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 152px; /* 83.516% */
+  text-transform: uppercase;
+}
+
+/* Title 106 */
+.title-106 {
+  font-family: Humane;
+  font-size: 106px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90px; /* 84.906% */
+  text-transform: uppercase;
+}
+
+/* Title 81 */
+.title-81 {
+  font-family: Humane;
+  font-size: 81px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71px; /* 87.654% */
+  text-transform: uppercase;
+}
+
+/* Title 62 */
+.title-62 {
+  font-family: Humane;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 83.871% */
+  text-transform: uppercase;
+}
+
+// =============================================================================
+// CLASSES UTILITAIRES COULEURS
+// =============================================================================
+
+.text-dark {
+  color: $color-dark;
+}
+
+.text-light {
+  color: $color-light;
+}
+
+.text-accent {
+  color: $color-accent;
+}

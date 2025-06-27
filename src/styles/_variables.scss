@@ -1,0 +1,40 @@
+// =============================================================================
+// VARIABLES SCSS - BASE CONFIGURATION
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// TYPOGRAPHY
+// -----------------------------------------------------------------------------
+$font-size-base: 16px;
+$font-scale: 1.25;
+$line-height-base: 1.2; // 120%
+
+// Font families
+$font-family-primary: "Anonymous Pro", monospace;
+$font-family-secondary: "Humane", sans-serif;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Typography scale (based on 1.25 ratio)
+$font-size-sm: #{$font-size-base / $font-scale}; // ~12.8px
+$font-size-base: $font-size-base; // 16px
+$font-size-md: #{$font-size-base * $font-scale}; // 20px
+$font-size-lg: #{$font-size-base * $font-scale * $font-scale}; // 25px
+
+// -----------------------------------------------------------------------------
+// COLORS
+// -----------------------------------------------------------------------------
+
+// Vos 3 couleurs principales
+$color-dark: #090909;      // Noir principal
+$color-light: #F5F5F5;     // Gris clair
+$color-accent: #00FFF0;    // Cyan/Turquoise
+
+// Text colors
+$text-color-primary: $color-dark;
+$text-color-secondary: $color-light;
+$text-color-accent: $color-accent;
+
+

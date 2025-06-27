@@ -1,0 +1,36 @@
+// =============================================================================
+// MAIN SCSS - POINT D'ENTRÉE PRINCIPAL
+// =============================================================================
+
+// Import des variables (doit être en premier)
+@import 'variables';
+
+// Import des polices
+@import 'fonts';
+
+// Import des mixins
+@import 'mixins';
+
+// Import de la typographie
+@import 'typography';
+
+// =============================================================================
+// RESET & BASE STYLES
+// =============================================================================
+
+// Reset CSS minimal
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Classes utilitaires pour les couleurs de fond
+.bg-dark { background-color: $color-dark; }
+.bg-light { background-color: $color-light; }
+.bg-accent { background-color: $color-accent; }

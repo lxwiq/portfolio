@@ -1,0 +1,33 @@
+// =============================================================================
+// MIXINS UTILITAIRES
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// TYPOGRAPHY MIXINS
+// -----------------------------------------------------------------------------
+
+// Mixin pour créer des styles de texte Anonymous Pro
+@mixin anonymous-text($size: $font-size-base, $weight: $font-weight-regular, $uppercase: false) {
+  font-family: $font-family-primary;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height-base;
+  font-style: normal;
+  @if $uppercase {
+    text-transform: uppercase;
+  }
+}
+
+// Mixin pour les titres Humane
+@mixin humane-title($size, $line-height, $uppercase: true) {
+  font-family: $font-family-secondary;
+  font-size: $size;
+  font-weight: $font-weight-bold;
+  line-height: $line-height;
+  font-style: normal;
+  @if $uppercase {
+    text-transform: uppercase;
+  }
+}
+
+

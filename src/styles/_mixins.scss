@@ -2,9 +2,7 @@
 // MIXINS UTILITAIRES
 // =============================================================================
 
-// -----------------------------------------------------------------------------
-// TYPOGRAPHY MIXINS
-// -----------------------------------------------------------------------------
+@use './variables' as *;
 
 // Mixin pour créer des styles de texte Anonymous Pro
 @mixin anonymous-text($size: $font-size-base, $weight: $font-weight-regular, $uppercase: false) {

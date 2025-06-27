@@ -18,10 +18,10 @@ $font-weight-regular: 400;
 $font-weight-bold: 700;
 
 // Typography scale (based on 1.25 ratio)
-$font-size-sm: #{$font-size-base / $font-scale}; // ~12.8px
+$font-size-sm: calc($font-size-base / $font-scale); // ~12.8px
 $font-size-base: $font-size-base; // 16px
-$font-size-md: #{$font-size-base * $font-scale}; // 20px
-$font-size-lg: #{$font-size-base * $font-scale * $font-scale}; // 25px
+$font-size-md: calc($font-size-base * $font-scale); // 20px
+$font-size-lg: calc($font-size-base * $font-scale * $font-scale); // 25px
 
 // -----------------------------------------------------------------------------
 // COLORS

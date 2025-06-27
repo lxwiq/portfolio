@@ -2,6 +2,8 @@
 // TYPOGRAPHY STYLES
 // =============================================================================
 
+@use '_variables' as *;
+
 // Base typography
 html {
   font-size: $font-size-base;

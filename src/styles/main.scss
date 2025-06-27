@@ -3,16 +3,16 @@
 // =============================================================================
 
 // Import des variables (doit être en premier)
-@use '_variables' as *;
+@use './variables' as *;
 
 // Import des polices
-@use '_fonts';
+@use './fonts';
 
 // Import des mixins
-@use '_mixins' as *;
+@use './mixins' as *;
 
 // Import de la typographie
-@use '_typography';
+@use './typography';
 
 // =============================================================================
 // RESET & BASE STYLES

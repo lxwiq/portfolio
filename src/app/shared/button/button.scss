@@ -1,0 +1,15 @@
+@use '../../../styles/variables' as *;
+
+.btn{
+  width: 237px;
+  color: $color-light;
+  border: 1px solid $color-light;
+  padding: 19px 79px;
+  text-decoration: none;
+  border-radius: 60px;
+  font-size: $font-size-base;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}

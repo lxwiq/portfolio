@@ -30,7 +30,19 @@
   padding: 0;
 }
 
+// Configuration globale de la page
+html {
+  background-color: $color-dark;
+  color: $text-color-primary;
+}
+
+body {
+  background-color: $color-dark;
+  color: $text-color-primary;
+}
+
 // Classes utilitaires pour les couleurs de fond
 .bg-dark { background-color: $color-dark; }
 .bg-light { background-color: $color-light; }
 .bg-accent { background-color: $color-accent; }
+.bg-white { background-color: #ffffff; }

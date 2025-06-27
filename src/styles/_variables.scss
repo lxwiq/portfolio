@@ -33,8 +33,9 @@ $color-light: #F5F5F5;     // Gris clair
 $color-accent: #00FFF0;    // Cyan/Turquoise
 
 // Text colors
-$text-color-primary: $color-dark;
-$text-color-secondary: $color-light;
-$text-color-accent: $color-accent;
+$text-color-primary: #ffffff;        // Blanc par défaut
+$text-color-secondary: $color-light; // Gris clair
+$text-color-accent: $color-accent;   // Cyan
+$text-color-dark: $color-dark;       // Noir pour contraste
 
 
